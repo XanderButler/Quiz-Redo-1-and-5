@@ -45,14 +45,14 @@ int main() {
     int myArray[MAX_ARRAY];
     int arraySize;
 
-    // Populate array
+    // populate array
     populateArray(myArray, arraySize);
 
-    // Print array
+    // print array
     std::cout << "Array Contents:\n";
     printArray(myArray, arraySize);
 
-    // Calculate and print average
+    // calculate and print average
     float avg = calculateAverage(myArray, arraySize);
     std::cout << "Average: " << avg << "\n";
 
